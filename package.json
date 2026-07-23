@@ -1,0 +1,30 @@
+{
+  "name": "brew-calculator",
+  "version": "1.0.0",
+  "description": "Interactive coffee brewing guide with live timer and dynamic recipes",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [
+    "coffee",
+    "brewing",
+    "timer",
+    "recipe",
+    "v60",
+    "chemex",
+    "calculator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1"
+  }
+}
